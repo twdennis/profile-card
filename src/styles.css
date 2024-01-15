@@ -53,4 +53,8 @@ h1 {
   align-items: center;
   gap: 8px;
   font-weight: 500;
+  color: rgb(47, 47, 103);
+  padding: 6px;
+  text-shadow: 0 2px rgba(168, 168, 168, 0.636);
+  box-shadow: 0 2px rgba(90, 93, 94, 0.334);
 }

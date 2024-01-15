@@ -1,14 +1,15 @@
 import React from "react";
 
-function Skill(props) {
+function Skill({ skillObj }) {
   return (
-    <div
-      className="skill"
-      style={{ backgroundColor: props.color, padding: "7px" }}
-    >
-      <span>
-        {props.skill}
-        {props.emoji}
+    <div className="skill" style={{ backgroundColor: skillObj.color }}>
+      <span >
+        {skillObj.skill}
+        {skillObj.level === "advanced"
+          ? "🤩"
+          : skillObj.level === "intermediate"
+          ? "😃"
+          : "🙂"}
       </span>
     </div>
   );
