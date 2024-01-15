@@ -3,11 +3,8 @@ import React from "react";
 function Skill(props) {
   return (
     <div
-      style={{
-        backgroundColor: props.color,
-        borderRadius: "10%",
-        padding: "5px",
-      }}
+      className="skill"
+      style={{ backgroundColor: props.color, padding: "7px" }}
     >
       <span>
         {props.skill}
